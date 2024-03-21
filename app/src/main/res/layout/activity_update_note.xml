@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".UpdateNoteActivity">
+
+    <TextView
+        android:id="@+id/editNoteHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/edit_your_note"
+        android:textColor="@color/blue"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/updateSaveBtn"
+        android:layout_width="39dp"
+        android:layout_height="34dp"
+        android:layout_alignTop="@id/editNoteHeading"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-3dp"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/done" />
+
+    <EditText
+        android:id="@+id/updateTitleET"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/editNoteHeading"
+        android:layout_marginTop="16dp"
+        android:autofillHints="New Note"
+        android:background="@drawable/blue_border"
+        android:fontFamily="sans-serif-black"
+        android:hint="@string/enter_the_title"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/updateContentET"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/updateTitleET"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/blue_border"
+        android:fontFamily="sans-serif-black"
+        android:gravity="top"
+        android:hint="@string/enter_the_description"
+        android:padding="12dp"
+        android:textColorHint="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

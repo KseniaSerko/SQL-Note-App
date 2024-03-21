@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SQLNoteApp</string>
+    <string name="todo">TODO</string>
+    <string name="add_your_note">Add Your Note</string>
+    <string name="enter_the_title">Enter the title</string>
+    <string name="enter_the_description">Enter the description</string>
+    <string name="notes">Notes</string>
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+    <string name="edit_your_note">Edit Your Note</string>
+</resources>
